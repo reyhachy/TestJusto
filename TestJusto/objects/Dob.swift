@@ -21,6 +21,6 @@ class Dob: NSObject, Mappable {
     
     
     var date: String?
-    var age: String?
+    var age: Int?
     
 }

@@ -21,6 +21,6 @@ class Registered: NSObject, Mappable {
     
     
     var date: String?
-    var age: String?
+    var age: Int?
     
 }

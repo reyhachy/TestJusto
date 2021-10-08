@@ -36,7 +36,7 @@ class UserHomeVC: BaseViewController, UserObserver{
             celularLabel.text = String("Celular : \(object.cell!)")
             correoLabel.text = String("Correo : \(object.email!)")
             direccionLabel.text = String("Direccion : \(object.location?.street?.name ?? "") \(object.location?.street?.number ?? ""), \(object.location?.city ?? ""), \(object.location?.state ?? ""), \(object.location?.country ?? "")")
-            edadLabel.text = String("Edad : \(object.dob?.age ?? "No disponible")")
+            edadLabel.text = String("Edad : \(object.dob?.age ?? 1)")
             perfilImage.image = UIImage.URLimage(url: object.picture?.large ?? "")
         }
         
